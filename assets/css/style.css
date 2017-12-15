@@ -1,0 +1,38 @@
+.threeds_loading {
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: progress;
+    z-index: 9999;
+    display: none;
+}
+
+.threeds_loading .message {
+    top: 30%;
+    position: absolute;
+    width: 100%;
+}
+
+.threeds_loading .message p {
+	text-align: center;
+    width: 405px;
+    height: 272px;
+    margin: 0 auto;
+    background: url('../images/secure.png') center no-repeat;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.threeds_loading .message p small {
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    left: 0;
+    display: inline-block;
+}
